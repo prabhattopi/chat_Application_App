@@ -1,5 +1,5 @@
 import { doc, onSnapshot } from 'firebase/firestore'
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useState } from 'react'
 import { ChatContext } from '../context/ChatContext'
 import { db } from '../firebase'

@@ -25,7 +25,7 @@ catch(err){
 
   }
   const handleKey=(e)=>{
-    e.key=="Enter" && handleSearch()
+    e.key==="Enter" && handleSearch()
 
   }
 
